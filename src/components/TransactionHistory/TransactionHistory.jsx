@@ -26,3 +26,12 @@ export const TransactionHistory = ({ events }) => {
         </table>
     )
 }
+TransactionHistory.propTypes = {
+    events: PropTypes.arrayOf(
+         PropTypes.exact({
+            id: PropTypes.string.isRequired,
+            type: PropTypes.string.isRequired,
+             amount: PropTypes.string.isRequired,
+             currency: PropTypes.string.isRequired
+        }),)
+}
