@@ -1,0 +1,14 @@
+.transactionHistory{
+    display: table;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-bottom: 50px;
+}
+tbody{
+   background-color: #ECF1F3;
+}
+tbody:nth-child(even){
+    background-color: #ffffff;
+}
