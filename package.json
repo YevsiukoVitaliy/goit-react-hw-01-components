@@ -1,7 +1,8 @@
 {
-  "name": "goit-react-hw-01-components",
+  "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yurijkovbasyuk.github.io/goit-react-hw-01-components/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
